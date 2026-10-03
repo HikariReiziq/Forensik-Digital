@@ -2,40 +2,37 @@
 
 Repository ini berisi dokumentasi proses investigasi forensik digital yang dilakukan oleh **Kelompok 4** terhadap barang bukti digital dari kelompok target dalam kegiatan **Forensik Digital**.
 
-Investigasi dilakukan untuk mengidentifikasi artefak digital yang relevan, menemukan keyword atau flag yang disembunyikan, serta mendokumentasikan proses dan hasil pemeriksaan dari setiap target.
+Investigasi dilakukan untuk mengidentifikasi artefak digital, menemukan keyword atau flag yang disembunyikan, serta mendokumentasikan proses dan hasil pemeriksaan dari setiap target.
 
----
+# Anggota Kelompok 4
 
-## Investigator
+| No. | Nama Lengkap |
+|---|---|
+| 1. | Imam Mahmud Dalil Fauzan|
+| 2. | M. Hikari Reiziq Rakhmadinta |
+| 3. | Ivan Syarifuddin |
+| 4. | Nayyara Ashila |
+| 5. | Rafika Az Zahra Kusumastuti |
 
-**Kelompok 4**
+# Summary Status Investigasi
 
-Repository ini digunakan sebagai dokumentasi hasil investigasi dari seluruh kelompok target yang menjadi bagian dari pembagian ronde Kelompok 4.
+| Target | Status | Documentation |
+|---|---:|---|
+| Kelompok 5 | Solved | [View](./investigations/kelompok%205/) |
+| Kelompok 1 | In Progress | — |
+| Kelompok 2 | Solved | [View](./investigations/kelompok%202/) |
+| Kelompok 3 | In Progress | — |
 
----
-
-## Investigation Targets
-
-| No. | Target | Status |
-|---|---|---|
-| 1 | Kelompok 5 | In Progress |
-| 2 | Kelompok 1 | In Progress |
-| 3 | Kelompok 2 | Solved |
-| 4 | Kelompok 3 | In Progress |
-
-> Status investigasi akan diperbarui seiring proses pemeriksaan setiap barang bukti selesai dilakukan.
-
----
 
 ## Tools
 
-Tool yang digunakan dalam proses investigasi:
+Tool yang kami gunakan dalam proses investigasi:
 
 - **Autopsy 4.23.1** - forensic examination dan analysis
+- **Strings** - extract strings dari file
+- **xxd** - extract hex dump dari file
 
 Tool tambahan akan dicantumkan pada dokumentasi masing-masing investigasi apabila diperlukan.
-
----
 
 # Repository Structure
 
@@ -64,16 +61,17 @@ Forensik-Digital/
     │   └── README.md
     │
     └── kelompok 5/
-        └── README.md
+        ├── README.md
+        └── src/
+            ├── tool_strings.jpeg
+            └── tool_xxd.jpeg
 ```
 
 Setiap folder kelompok berisi dokumentasi investigasi secara terpisah agar proses pemeriksaan dan hasil dari masing-masing target dapat ditelusuri dengan mudah.
 
----
-
 # Investigation Cases
 
-## Kelompok 1
+## Barang Bukti Kelompok 1
 
 **Status:** In Progress
 
@@ -83,7 +81,7 @@ Dokumentasi investigasi:
 
 ---
 
-## Kelompok 2
+## Barang Bukti Kelompok 2
 
 **Status:** Solved
 
@@ -95,7 +93,7 @@ Pemeriksaan lebih lanjut terhadap file tersebut berhasil menemukan flag yang dis
 
 ---
 
-## Kelompok 3
+## Barang Bukti Kelompok 3
 
 **Status:** In Progress
 
@@ -105,11 +103,11 @@ Dokumentasi investigasi:
 
 ---
 
-## Kelompok 5
+## Barang Bukti Kelompok 5
 
-**Status:** In Progress
+**Status:** Solved
 
-Dokumentasi investigasi:
+Pencarian Flag pada file `opung_archive.jpg` telah ditemukan menggunakan 2 tools, yaitu tools `strings` dan tools `xxd`.
 
 [→ Buka Investigasi Kelompok 5](./investigations/kelompok%205/)
 
@@ -128,18 +126,6 @@ Repository ini hanya berisi dokumentasi investigasi, seperti:
 - hasil temuan;
 - serta dokumentasi pendukung lainnya.
 
----
-
-# Investigation Status
-
-| Target | Status | Documentation |
-|---|---:|---|
-| Kelompok 5 | In Progress | — |
-| Kelompok 1 | In Progress | — |
-| Kelompok 2 | Solved | [View](./investigations/kelompok%202/) |
-| Kelompok 3 | In Progress | — |
-
----
 
 ## Documentation
 
