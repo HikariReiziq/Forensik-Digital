@@ -19,7 +19,7 @@ Investigasi dilakukan untuk mengidentifikasi artefak digital, menemukan keyword 
 | Target | Status | Documentation |
 |---|---:|---|
 | Kelompok 5 | Solved | [View](./investigations/kelompok%205/) |
-| Kelompok 1 | In Progress | — |
+| Kelompok 1 | In Progress | [View](./investigations/kelompok%201/) |
 | Kelompok 2 | Solved | [View](./investigations/kelompok%202/) |
 | Kelompok 3 | In Progress | — |
 
